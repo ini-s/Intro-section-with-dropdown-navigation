@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](http://127.0.0.1:5501/index.html#)
-- Live Site URL: [Add live site URL here](https://github.com/ini-s/Intro-section-with-dropdown-navigation.git)
+- Live Site URL: [Add live site URL here](https://ini-s.github.io/Intro-section-with-dropdown-navigation/)
 
 ### Built with
 
