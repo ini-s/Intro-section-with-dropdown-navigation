@@ -22,61 +22,63 @@
   <!-- Transparency -->
 <div class="layer"></div>
   <!-- Navbar section -->
-  <nav class="navbar navbar-expand-md navbar-light  py-3">
+  <nav class="navbar navbar-expand-md navbar-light  py-3" role="navigation">
     <div class="container-fluid">
     <a class="navbar-brand me-5 ms-4" href=""><img class="brand-img navi" src="images/logo.png" alt="snap-img"></a>
       <button class="toggle-btn" type="button">
-        <img class="menu-img" src="images/icon-menu.png" alt="menu-img">
+        <div>
+          <img class="menu-img" src="images/icon-menu.png" alt="menu-img">
+        </div>
         </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link nav-dropdown features-link" href="#" id="navbarDropdown" role="button">
+            <a class="nav-link nav-dropdown features-link" href="#features" role="button">
               Features <img class="nav-arrow" src="images/icon-arrow-down.png" alt="down-arrow">          
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a href="#" class="dropdown-item text-secondary"><img class="features-img" src="images/icon-todo.png" alt="todo-img">Todo  List</a>
+                <a href="#todo" class="dropdown-item text-secondary"><img class="features-img" src="images/icon-todo.png" alt="todo-img">Todo  List</a>
               </li>
               <li>
-                <a href="#" class="dropdown-item text-secondary"><img class="features-img" src="images/icon-calendar.png" alt="calendar-img">Calendar</a>
+                <a href="#calendar" class="dropdown-item text-secondary"><img class="features-img" src="images/icon-calendar.png" alt="calendar-img">Calendar</a>
               </li>
               <li>
-                <a href="#" class="dropdown-item text-secondary"><img class="features-img" src="images/icon-reminders.png" alt="reminder-img">Reminders</a>
+                <a href="#reminders" class="dropdown-item text-secondary"><img class="features-img" src="images/icon-reminders.png" alt="reminder-img">Reminders</a>
               </li>
               <li>
-                <a href="#" class="dropdown-item text-secondary"><img class="features-img" src="images/icon-planning.png" alt="plan-img">Planning</a>
+                <a href="#planning" class="dropdown-item text-secondary"><img class="features-img" src="images/icon-planning.png" alt="plan-img">Planning</a>
               </li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link nav-dropdown" href="#" id="navbarDropdown" role="button">
+            <a class="nav-link nav-dropdown" href="#company" role="button">
               Company <img class="nav-arrow" src="images/icon-arrow-down.png" alt="down-arrow">
             </a>
             <ul class="dropdown-menu company">
               <li>
-                <a href="#" class="dropdown-item text-secondary">History</a>
+                <a href="#history" class="dropdown-item text-secondary">History</a>
               </li>
               <li>
-                <a href="#" class="dropdown-item text-secondary">Our Team</a>
+                <a href="#team" class="dropdown-item text-secondary">Our Team</a>
               </li>
               <li>
-                <a href="#" class="dropdown-item text-secondary">Blog</a>
+                <a href="#blog" class="dropdown-item text-secondary">Blog</a>
               </li>
             </ul>
           </li>
         
           <li class="nav-item ">
-              <a href="#" class="nav-link nav-careers"> Careers</a>
+              <a href="#careers" class="nav-link nav-careers"> Careers</a>
           </li>
           <li class="nav-item ">
-            <a href="#" class="nav-link"> About</a>
+            <a href="#about" class="nav-link"> About</a>
           </li>
           </ul>
         <div class="navbar-nav ms-auto">
-          <a href="#" class="nav-link me-4"> Login </a>
+          <a href="#login" class="nav-link me-4"> Login </a>
         </div>
-          <a href="#" class=" register-btn me-4">Register</a>
+          <a href="#register" class=" register-btn me-4">Register</a>
           </div>
         </div>
 </nav>
@@ -89,90 +91,92 @@
   </div>
     <div class="links">
       <div class="dropdown-link">
-        <a href="#">
+        <a href="#features">
           Features  
             <img class="arrow" src="images/icon-arrow-down.png" alt="down-arrow">
         </a>
         <ul class="sub-menu">
           <li>
-            <a href="#" class="dropdown-item">
+            <a href="#todo" class="dropdown-item">
               <img class="features-img" src="images/icon-todo.png" alt="todo-img">Todo  List
             </a>
           </li>
           <li>
-            <a href="#" class="dropdown-item">
+            <a href="#calendar" class="dropdown-item">
               <img class="features-img" src="images/icon-calendar.png" alt="reminder-img">Calendar
             </a>
           </li>
           <li>
-            <a href="#" class="dropdown-item">
+            <a href="#reminders" class="dropdown-item">
               <img class="features-img" src="images/icon-reminders.png" alt="reminder-img">Reminders
             </a>
           </li>
           <li>
-            <a href="#" class="dropdown-item">
+            <a href="#planning" class="dropdown-item">
               <img class="features-img" src="images/icon-planning.png" alt="plan-img">Planning
             </a>
           </li>
         </ul>
       </div>
       <div class="dropdown-link">
-        <a href="#">
+        <a href="#company">
           Company 
           <img class="arrow" src="images/icon-arrow-down.png" alt="down-arrow">
         </a>
         <ul class="sub-menu">
           <li>
-            <a href="#" class="dropdown-item text-secondary">History</a>
+            <a href="#history" class="dropdown-item text-secondary">History</a>
           </li>
           <li>
-            <a href="#" class="dropdown-item text-secondary">Our Team</a>
+            <a href="#team" class="dropdown-item text-secondary">Our Team</a>
           </li>
           <li>
-            <a href="#" class="dropdown-item text-secondary">Blog</a>
+            <a href="#blog" class="dropdown-item text-secondary">Blog</a>
           </li>
         </ul>
       </div>
       <div class="link">
-        <a href="#">Careers</a>
+        <a href="#careers">Careers</a>
       </div>
       <div class="link">
-        <a href="#">About</a>
+        <a href="#about">About</a>
       </div>
       <div class="link login">
-        <a class="login-link" href="#">Login</a>
+        <a class="login-link" href="#login">Login</a>
       </div>
       <div class="link">
-        <a href="#" class="me-4 register-link">Register</a>
+        <a href="#register" class="me-4 register-link">Register</a>
       </div>
     </div>
 </div>
   
 <!-- Main section -->
-<div class="container main">
-  <div class="row">
-    <div class="col-md-5 order-md-3">
-        <img class="hero-desktop-img" src="images/image-hero-desktop.png" alt="hero-img">
-        <img class="hero-mobile-img img-fluid" src="images/image-hero-mobile.png" alt="hero-img">
-    </div>
-    <div class="col-md-1  order-md-2 empty-div">
-    </div>
-    <div class="col-md-6  order-md-1 text">
-      <h1 class="heading desktop-heading"> Make <br> remote work</h1>
-      <h1 class="heading mobile-heading">Make remote Work</h1>
-      <p class="paragraph">
-        Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
-      </p>
-      <a class="btn btn-dark learn-btn px-3 py-2"> Learn more</a>
-      <div class="logos"> 
-        <img class='logo logo1' src="images/client-databiz.png" alt="client-databiz">
-        <img class='logo' src="images/client-audiophile.png" alt="client-audiophile">
-        <img class='logo' src="images/client-meet.png" alt="client-meet">
-        <img class='logo logo4' src="images/client-maker.png" alt="client-maker">
+<main role="main">
+  <div class="container main">
+    <div class="row">
+      <div class="col-md-5 order-md-3">
+          <img class="hero-desktop-img" src="images/image-hero-desktop.png" alt="hero-img">
+          <img class="hero-mobile-img img-fluid" src="images/image-hero-mobile.png" alt="hero-img">
+      </div>
+      <div class="col-md-1  order-md-2 empty-div">
+      </div>
+      <div class="col-md-6  order-md-1 text">
+        <h1 class="heading desktop-heading"> Make <br> remote work</h1>
+        <h1 class="heading mobile-heading">Make remote Work</h1>
+        <p class="paragraph">
+          Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+        </p>
+        <a class="btn btn-dark learn-btn px-3 py-2"> Learn more</a>
+        <div class="logos"> 
+          <img class='logo logo1' src="images/client-databiz.png" alt="client-databiz">
+          <img class='logo' src="images/client-audiophile.png" alt="client-audiophile">
+          <img class='logo' src="images/client-meet.png" alt="client-meet">
+          <img class='logo logo4' src="images/client-maker.png" alt="client-maker">
+        </div>
       </div>
     </div>
   </div>
-</div>
+</main>
   <script src="main.js"></script>
 </body>
 </html>
