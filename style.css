@@ -48,7 +48,7 @@ body{
 .navbar .register-btn:hover{
     background-color:hsl(0, 0%, 98%);
     color: black;
-    border: 1.5px solid black;
+    border: 1.4px solid black;
 }
 .features-img{
     width:10%;
